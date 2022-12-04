@@ -1,7 +1,6 @@
 package com.victordslima.backend.data;
 
 public class MatchInput {
-    
     private String id;
     private String city;
     private String date;

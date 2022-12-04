@@ -9,22 +9,21 @@ import javax.persistence.Id;
 public class Match {
 
     @Id
-    private long id;                                                                    
-    private String city;                                                           
-    private LocalDate date;                                                                   
-    private String playerOfMatch;                                                 
-    private String venue;                                      
-    private String neutral_venue;                                              
-    private String team1;                                                                    
-    private String team2;                                                            
-    private String tossWinner;                                                    
-    private String tossDecision;                                                
-    private String matchWinner;                                       
-    private String result;                                    
-    private String resultMargin;                                           
-    private String umpire1;                                                  
-    private String umpire2;                                            
-
+    private long id;
+    private String city;
+    private LocalDate date;
+    private String playerOfMatch;
+    private String venue;
+    private String team1;
+    private String team2;
+    private String tossWinner;
+    private String tossDecision;
+    private String matchWinner;
+    private String result;
+    private String resultMargin;
+    private String umpire1;
+    private String umpire2;
+    
     public long getId() {
         return id;
     }
@@ -54,12 +53,6 @@ public class Match {
     }
     public void setVenue(String venue) {
         this.venue = venue;
-    }
-    public String getNeutral_venue() {
-        return neutral_venue;
-    }
-    public void setNeutral_venue(String neutral_venue) {
-        this.neutral_venue = neutral_venue;
     }
     public String getTeam1() {
         return team1;
